@@ -1,6 +1,6 @@
 ### Hi there 👋 This repository is used to track my progress through my education in the MSBA program at the University of Utah. 
 ### EDA Notbook assignment & Group project on Home Credit.
-#### In this assignment I did an EDA & predictive analysis for the Home Credit Default Risk project from the Kaggle competition. This was done individually then the predictive analysis was done as a group. 
+In this assignment I did an EDA & predictive analysis for the Home Credit Default Risk project from the Kaggle competition. This was done individually then the predictive analysis was done as a group. 
 ### Summary of Business Problem and Project Objective
 In the financial sector, assessing creditworthiness is a critical business challenge, especially for customers with limited credit history. Our project aims to predict the probability of loan defaults using the Home Credit Default Risk dataset, which contains both application and transactional data. The objective is to develop a predictive model that helps in making informed lending decisions, thereby reducing risk and supporting financial inclusion.
 
