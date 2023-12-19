@@ -1,15 +1,28 @@
 ### Hi there 👋 This repository is used to track my progress through my education in the MSBA program at the University of Utah. 
 ### EDA Notbook assignment.
 #### In this assignment I did an EDA for the Home Credit Default Risk project from the Kaggle competition. 
-Tasks
-Explore the target variable in application_{train|test}.csv. Is the data unbalanced with respect to the target? What would the accuracy be for a simple model consisting in a majority class classifier?
-Explore the relationship between target and predictors, looking for potentially strong predictors that could be included later in a model.
-The skimr package in R has some great data exploration tools, and the janitor package has utilities that will simplify data cleaning.
-Explore the scope of missing data in application_{train|test}.csv and come up with possible solutions. Remove rows?  Remove columns?  Impute?
-Be alert to problems in the data.  Do the values make sense? Are there mistaken values that should be cleaned or imputed? (Note that outliers are not necessarily mistakes. Check APM for advice on how to handle outliers for a predictive project.) Are there columns with near-zero or zero variance?
-Will the input data need to be transformed in order to be used in a model? You might answer this question differently for different models. (For example, some models might accept factor variables, others might not.) You can put off answering this question for now,  but you should begin thinking about it. Check APM for advice.
-Join application_{train|test}.csv with transactional data in, for example, bureau.csv or previous_application.csv. This will require aggregating the transactional data to have the same grain as the application data.
-Explore the joined transactional data.  Do some of the added columns show promise in predicting default?
+### Summary of Business Problem and Project Objective
+In the financial sector, assessing creditworthiness is a critical business challenge, especially for customers with limited credit history. Our project aims to predict the probability of loan defaults using the Home Credit Default Risk dataset, which contains both application and transactional data. The objective is to develop a predictive model that helps in making informed lending decisions, thereby reducing risk and supporting financial inclusion.
+
+### Our Group's Solution to the Business Problem
+Our solution involves comprehensive data exploration, cleaning, and analysis followed by predictive modeling using machine learning techniques. We focus on understanding the relationship between the target variable and potential predictors, dealing with missing data, and enriching our dataset by joining application data with transactional records. Our approach is data-driven and aims to extract meaningful insights to aid in accurate default prediction.
+
+### My contribution to the project included:
+Analyzing the balance of the target variable in the dataset and assessing the impact of data imbalance on model accuracy.
+Exploring relationships between the target and predictor variables to identify strong predictors.
+Handling missing data in the application datasets, considering strategies like row/column removal and imputation.
+Data cleaning and validation to ensure data quality and consistency.
+Joining application data with transactional data from other sources like bureau.csv and previous_application.csv.
+The Business Value of the Solution
+Our predictive model aims to significantly improve decision-making in the loan approval process. By accurately identifying potential defaults, the model can reduce financial risks. It also supports responsible lending by avoiding overburdening customers with loans they might struggle to repay.
+
+### Challenges faced included:
+Managing unbalanced data and its impact on model performance.
+Dealing with a significant amount of missing data and deciding on the best strategies for handling it.
+Ensuring data integrity, especially when joining datasets of different structures and sources.
+What You Learned in the Project
+This project enhanced my skills in data preprocessing, particularly in handling missing data and data imbalances. I gained insights into the importance of thorough exploratory data analysis to guide the modeling process and learned advanced techniques for joining and aggregating complex datasets.
+
 
 ### Home Credit Defalut Risk Analysis
 #### In this project I worked with a group in The first phase of the CRISP-DM analytics project lifecycle is business understanding, which includes the tasks of framing the business problem and writing a business problem statement.
