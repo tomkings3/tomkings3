@@ -26,10 +26,11 @@ This project enhanced my skills in data preprocessing, particularly in handling 
 
 ### Home Credit Defalut Risk Analysis
 #### In this project I worked with a group in The first phase of the CRISP-DM analytics project lifecycle is business understanding, which includes the tasks of framing the business problem and writing a business problem statement.
-Tasks
-Practice framing a business problem and an analytic problem.
-Practice writing a business problem statement.
+### Business Problem Framing
+The challenge for financial institutions like Home Credit is to accurately assess the creditworthiness of potential borrowers, particularly those with limited or no credit history. The primary business problem is to minimize the risk of loan defaults while extending credit services to a broader customer base. Effective prediction of loan default likelihood can lead to more informed lending decisions, reducing financial risk and promoting inclusive financing.
 
+### Analytic Problem Framing
+From an analytics perspective, the problem translates to developing a predictive model that can accurately determine the probability of loan defaults based on various financial and personal data points. This involves analyzing large datasets to identify patterns and key indicators of default risk. The analytic challenge is to handle data complexities such as imbalances, missing values, and integration of disparate data sources.
 <!--
 **tomkings3/tomkings3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
