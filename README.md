@@ -1,8 +1,10 @@
 ### Hi there 👋 This repository is used to track my progress through my education in the MSBA program at the University of Utah. 
-### EDA Notbook assignment & Group project on Home Credit.
-In this assignment I did an EDA & predictive analysis for the Home Credit Default Risk project from the Kaggle competition. This was done individually then the predictive analysis was done as a group. 
+### EDA Notbook assignment & Group project on Swire.
+In this assignment I did an EDA & predictive analysis for Swire Coca Cola. This was done individually then the predictive analysis was done as a group. 
 ### Summary of Business Problem and Project Objective
-In the financial sector, assessing creditworthiness is a critical business challenge, especially for customers with limited credit history. Our project aims to predict the probability of loan defaults using the Home Credit Default Risk dataset, which contains both application and transactional data. The objective is to develop a predictive model that helps in making informed lending decisions, thereby reducing risk and supporting financial inclusion.
+Swire Coca-Cola has encountered a challenge with predicting one of its beverage lines, specifically the brand 'Sparkling Jacceptabletlester'. Despite the expectation that this product would perform well during the key sales months of March and April, the the forcast doesn't look good. The product, characterized by its 'Regular' caloric segment, 'SSD' market category, and avocado flavor, packaged as '11Small MLT', has underachieved in terms of dollar sales.
+
+The core business problem here is to understand why 'Sparkling Jacceptabletlester' is not resonating with consumers as anticipated, and to determine what strategic adjustments can be made to improve its market performance. This may involve reevaluating the product's features, its positioning, marketing approach, or other aspects of the sales and distribution strategy to better align with consumer preferences and increase sales.
 
 ### Our Group's Solution to the Business Problem
 Our solution involved comprehensive data exploration, cleaning, and analysis followed by predictive modeling using machine learning techniques. We focus on understanding the relationship between the target variable and potential predictors, dealing with missing data, and enriching our dataset by joining application data with transactional records. Our approach is data-driven and aims to extract meaningful insights to aid in accurate default prediction.
@@ -12,17 +14,18 @@ Our solution involved comprehensive data exploration, cleaning, and analysis fol
 - Exploring relationships between the target and predictor variables to identify strong predictors.
 - Handling missing data in the application datasets, considering strategies like row/column removal and imputation.
 - Data cleaning and validation to ensure data quality and consistency.
-- Joining application data with transactional data from other sources like bureau.csv and previous_application.csv.
+- Joining application data with transactional data from other sources like general information with zipcodes. 
 
 ### The Business Value of the Solution
-Our predictive model aims to significantly improve decision-making in the loan approval process. By accurately identifying potential defaults, the model can reduce financial risks. It also supports responsible lending by avoiding overburdening customers with loans they might struggle to repay.
+Our predictive model aims to significantly improve decision-making in the product line. By accurately identifying potential high sales in products with unique features. 
 
 ### Challenges faced included:
 - Managing unbalanced data and its impact on model performance.
+- Massive data, which we countered with inner-join features.
 - Dealing with a significant amount of missing data and deciding on the best strategies for handling it.
 - Ensuring data integrity, especially when joining datasets of different structures and sources.
 ### What You Learned in the Project
-This project enhanced my skills in data preprocessing, particularly in handling missing data and data imbalances. I gained insights into the importance of thorough exploratory data analysis to guide the modeling process and learned advanced techniques for joining and aggregating complex datasets.
+This project enhanced my skills in data preprocessing, particularly in handling large data and data imbalances. I gained insights into the importance of thorough exploratory data analysis to guide the modeling process and learned advanced techniques for joining and aggregating complex datasets.
 
 
 ### Home Credit Defalut Risk Analysis
