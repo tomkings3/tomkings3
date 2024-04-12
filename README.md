@@ -7,7 +7,7 @@ Swire Coca-Cola has encountered a challenge with predicting one of its beverage 
 The core business problem here is to understand why 'Sparkling Jacceptabletlester' is not resonating with consumers as anticipated, and to determine what strategic adjustments can be made to improve its market performance. This may involve reevaluating the product's features, its positioning, marketing approach, or other aspects of the sales and distribution strategy to better align with consumer preferences and increase sales.
 
 ### Our Group's Solution to the Business Problem
-Our solution involved comprehensive data exploration, cleaning, and analysis followed by predictive modeling using machine learning techniques. We focus on understanding the relationship between the target variable and potential predictors, dealing with missing data, and enriching our dataset by joining application data with transactional records. Our approach is data-driven and aims to extract meaningful insights to aid in accurate default prediction.
+Our solution involved comprehensive data exploration, cleaning, and analysis followed by predictive modeling using machine learning techniques. We focus on understanding the relationship between the target variable and potential predictors, dealing with missing data, and enriching our dataset by joining application data with transactional records. Our approach is data-driven and aims to extract meaningful insights to aid in accurate product sales prediction.
 
 ### My contribution to the project included:
 - Analyzing the balance of the target variable in the dataset and assessing the impact of data imbalance on model accuracy.
